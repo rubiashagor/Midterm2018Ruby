@@ -1,12 +1,36 @@
 Please answer the below core-java Questions:
 
 What is programing language?
-A.
+Programming language is a special language programmers used to develop software
+programs,script,or other set of introduction for computers to exicute.
+
 What jdk contains or composed of and define each components?
+ jdk is superset of JRE,and contain everything that is in JRE,that tools such as the computer
+ and debuggers necessary for developing appletets and application and JRE provides the libraries.
+ The Java Virtual Machine and other components to run applets and applications written in the
+ Java lAnguage programming.
+
+
+
+
+
 What is IDE?
+Integrated development environment IDE ia software application that provided comprehensive
+facilities to computer programming for software development.
+
+
 What are the IDEs available in the market to support java?
+There are most of Intellij, Net beans,eclipse,blueJ,JDeveloper,DR Java,G eny.
+
 Explain the entire java life cycle.
+Input unit recieves data from imput divice such as the keyboard,mouse and  any other peripherals.
+Memory Unit the primary memory unit provides fast access storage of computer programs
+data from the inputdevices and data to be sent to the output devices.
+
+
+
 what is class?
+NTRODUCTION TO JAVA CLASSES. A class is nothing but a blueprint or a template for creating different objects which defines its properties and behaviors. Java class objects exhibit the properties and behaviors defined by its class. A class can contain fields and methods to describe the behavior of an object.
 What is object?
 What is the entry point of an application?
 Why main is static?
