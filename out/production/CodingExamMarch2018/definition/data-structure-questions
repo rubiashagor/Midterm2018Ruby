@@ -1,33 +1,62 @@
 Please answer the below Data Structure Questions:
 
 why do we need data structure?
+Data structure is a particular way of storing and organizing information in a computer so that it can be retrieved and used most productively. ... Data structures are important for the following reasons: 1. Data structures are used in almost every program or software system.
 A.
 What are the various operations that can be performed on different Data Structures?
 List out the areas in which data structures are applied extensively?
+The name of areas are: · Compiler Design, · Operating System, · Database Management System, · Statistical analysis package, · Numerical Analysis, · Graphics, · Artificial Intelligence, · Simulation.
 what is an Array?
-what is the difference between the Array and ArrayList?
-what is LinkedList?
-How is an Array different from Linked List?
-what is queue?
-what is stack?
-what is FIFO and LIFO?
-what is the order of complexity?
-what is the best case to search an element from an array?
-what is the worst case to search an element from an array?
-what is tree in data structure?
-what is graph in data structure?
-what is the difference between the HashTable and HashMap?
-What are the major data structures used in the following areas : RDBMS, Network data model and Hierarchical data model.
-How HashMap works in java?
-What is ArrayIndexOutOfBoundsException in java? When it occurs?
-What are the different ways of copying an array into another array?
-What is difference between an array and a linked list?
-What is DFS and BFS?
-What is Recursion?
-What are linear and non linear data Structures?
-What is Big-(O)-notation?
-Outlined different kind of sorting algorithm with time complexity?
 
+An array is a container object that holds a fixed number of values of a single type.
+what is the difference between the Array and ArrayList?
+difference between Array and ArrayList in Java is that Array is a fixed length data structure while ArrayList is a variable length Collection class. ..
+
+what is LinkedList?
+ linked list is a linear data structure where each element is a separate object. Each element (we will call it a node) of a list is comprising of two items - the data and a reference to the next node. The last node has a reference to null. The entry point into a linked list is called the head of the list.
+
+How is an Array different from Linked List?
+Array and Linked list regards to their structure. Arrays are index based data structure where each element associated with an index. ... While a linked list is data structure which contains a sequence of the elements where each element is linked to its next element.
+what is queue?
+A queue consists of a number of packets.
+
+
+what is stack?
+a stack is a data structure used to store a collection of objects. Individual items can be added and stored in a stack using a push operation.
+
+what is FIFO and LIFO?
+FIFO and LIFO are cost layering methods used to value the cost of goods sold and ending inventory. FIFO is a contraction of the term "first in, first out," and means that the goods first added to inventory are assumed to be the first goods removed from inventory for sale.
+
+what is the order of complexity?w
+what is the best case to search an element from an arraywhat is the worst ca
+what is tree in data structure??
+In computer science, a tree is a widely used abstract data type (ADT)—or data structure implementing this ADT—that simulates a hierarchical tree structure, with a root value and subtrees of children with a parent node, represented as a set of linked nodes
+what is graph in data structure?
+A graph is a pictorial representation of a set of objects where some pairs of objects are connected by links. The interconnected objects are represented by points termed as vertices, and the links that connect the vertices are called edges.
+what is the difference between the HashTable and HashMap?
+There are several differences between HashMap and Hashtable in Java: Hashtable is synchronized, whereas HashMap is not. This makes HashMap better for non-threaded applications, as unsynchronized Objects typically perform better than synchronized ones. ... HashMap allows one null key and any number of null values.
+
+cHow HashMap works in java?
+What is ArrayIndexOutOfBoundsException in java? When it occurs?
+java.lang.ArrayIndexOutOfBoundsException occurs when we try to access an element of an array, with an index that is negative or more than the size of array itself.
+What are the different ways of copying an array into another array?
+Manually. In this method we manually copy elements one by one. ...
+Arrays.copyOf() We can directly copy one array to another by using Arrays.copyOf() method. ...
+System.arraycopy() It is another method that directly copies one array to another. ...
+Object.clone()
+In array, each element is independent, no connection with previous element or with its location. In Linked list, location or address of elements is stored in the link part of previous element/node. In array, no pointers are used like linked list so no need of extra space in memory for pointer.
+
+What is DFS and BFS?
+The breadth first search (BFS) and the depth first search (DFS) are the two algorithms used for traversing and searching a node in a graph. They can also be used to find out whether a node is reachable from a given node or not.
+What is Recursion?
+Recursion is a method of solving problems that involves breaking a problem down into smaller and smaller subproblems until you get to a small enough problem that it can be solved trivially. Usually recursion involves a function calling itself.
+
+What are linear and non linear data Structures?
+ linear data structures are Arrays, Stack, Queue and Linked List. An arrays is a collection of data items having the same data types. ... Non Linear Data Structures: The data structure where data items are not organized sequentially is called non linear data structure
+What is Big-(O)-notation?
+Big O notation is used in Computer Science to describe the performance or complexity of an algorithm.
+Outlin
+ed different kind of sorting algorithm with time complexity?
 Draw a table with time complexity in which it will summarize all the data structure feature's advantages and disadvantages.
   a)In terms of Accessing element.
   b)In terms of Inserting element.
